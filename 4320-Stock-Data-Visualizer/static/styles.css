@@ -1,0 +1,45 @@
+/* White background for full chart */
+.background {
+    fill: white;
+}
+
+.plot-background {
+    fill: white;
+}
+
+/* Axis styling */
+.axis line,
+.axis path {
+    stroke: #ccc;
+}
+
+.axis text {
+    fill: black;
+}
+
+/* Title, labels, and ticks */
+text {
+    fill: black;
+    font-size: 14px;
+}
+
+/* Colored lines/bars */
+.line-0, .bar-0 {
+    stroke: steelblue;
+    fill: steelblue;
+}
+
+.line-1, .bar-1 {
+    stroke: orange;
+    fill: orange;
+}
+
+.line-2, .bar-2 {
+    stroke: seagreen;
+    fill: seagreen;
+}
+
+.line-3, .bar-3 {
+    stroke: crimson;
+    fill: crimson;
+}
